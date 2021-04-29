@@ -1,5 +1,5 @@
 {% extends "layout.html" %}
-{% block corpo %}1
+{% block corpo %}
   {% if session.logado %}
     <form action="{{ url_for('inserir_entradas') }}" method="post"
           class="ins-entrada">
